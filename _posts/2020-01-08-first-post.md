@@ -6,10 +6,10 @@ date: 2020-01-08T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/1.jpg
+  overlay_image: /assets/images/mingles.jpg
   actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+    - label: "Contact us"
+      url: ""
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "당신이 기다렸던 Mingles의 이벤트들"
 intro: 
