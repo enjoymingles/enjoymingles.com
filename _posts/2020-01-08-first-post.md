@@ -6,11 +6,10 @@ date: 2020-01-08T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/mingles.jpg
+  overlay_image: /assets/images/wines.jpg
   actions:
-    - label: "Contact us"
+    - label: "Join mingles"
       url: ""
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "당신이 기다렸던 Mingles의 이벤트들"
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
@@ -19,7 +18,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/1.jpg
+  - image_path: /assets/images/mingles.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
     title: "Placeholder 2"
