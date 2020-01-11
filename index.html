@@ -17,7 +17,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Mingle Mangle"
     excerpt: "지금, 설레임 한잔해요"
-    url: "https://forms.gle/VzC6viTF1X2cTkcW6"
+    url: "https://mingles.page.link/0128"
     btn_label: "신청하기"
     btn_class: "btn--warning"
   - excerpt: ""
@@ -26,27 +26,6 @@ feature_row:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row type="center" %}
-
-<script>
-/**
-* Function that captures a click on an outbound link in Analytics.
-* This function takes a valid URL string as an argument, and uses that URL string
-* as the event label. Setting the transport method to 'beacon' lets the hit be sent
-* using 'navigator.sendBeacon' in browser that support it.
-*/
-var captureOutboundLink = function(url) {
-   ga('send', 'event', 'outbound', 'click', url, {
-     'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
-}
-</script>
-
-<div>
-  <center>
-    <a href="https://forms.gle/VzC6viTF1X2cTkcW6" class="btn btn--warning" onclick="captureOutboundLink('https://forms.gle/VzC6viTF1X2cTkcW6'); return false;">신청하기</a>
-  </center>
-<div>
 
 <div>
 <center>Mingle Mangle<br/>
