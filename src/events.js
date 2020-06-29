@@ -9,11 +9,11 @@ const events = [
         color: "#3CAEA3"
     },
     {
-        start: moment("20200705"),
-        end: moment("20200705"),
+        start: moment("20200704"),
+        end: moment("20200704"),
         title: "flutter 스터디",
         description: "flutter 스터디"
-    }
+    },
 ]
 
 export default events;
