@@ -1,38 +1,47 @@
-import React, { Component } from "react";
+import React from "react";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
+import events from "./events.js";
 
 import "./App.css";
-import "react-big-calendar/lib/css/react-big-calendar.css";
+import "./style.scss"
 
-const localizer = momentLocalizer(moment);
+function App() {
+  const localizer = momentLocalizer(moment);
 
-class App extends Component {
-  state = {
-    events: [
-      {
-        start: moment().toDate(),
-        end: moment()
-          .add(1, "days")
-          .toDate(),
-        title: "Some title"
-      }
-    ]
-  };
+  const handleEvent = (event) => {
+    alert(event.description)
+  }
 
-  render() {
-    return (
-      <div className="App">
+  return (
+    <div>
+      <div className="jumbotron">
+          <div className="container">
+            <h1>
+              Mingles Calendar <i className="fa fa-calendar" />
+            </h1>
+            <p>밍글스 아지트 Upcoming Events</p>
+          </div>
+      </div>
+      <div className="examples">
         <Calendar
           localizer={localizer}
           defaultDate={new Date()}
           defaultView="month"
-          events={this.state.events}
+          events={events}
+          showMultiDayTimes
+          step={60}
           style={{ height: "100vh" }}
+          onSelectEvent={event => handleEvent(event)}
+          eventPropGetter={event => ({
+            style: {
+              backgroundColor: event.color,
+            },
+          })}
         />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;
