@@ -31,4 +31,3 @@ jobs:
         git config --global user.name "enjoymingles"
         git remote set-url origin https://${{ secrets.TOKEN_FOR_GITHUB_ACTION }}@github.com/enjoymingles/enjoymingles.github.io.git
         npm run deploy
-      with:
