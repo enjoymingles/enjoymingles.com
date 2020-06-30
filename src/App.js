@@ -29,7 +29,6 @@ function App() {
           defaultDate={new Date()}
           defaultView="month"
           events={events}
-          steps={60}
           showMultiDayTimes
           style={{ height: "100vh" }}
           onSelectEvent={event => handleEvent(event)}
