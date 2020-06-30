@@ -1,7 +1,7 @@
 name: React build
 on: 
   push:
-    branches: [ '*' ]
+    branches: [ develop ]
   pull_request:
     branches: [ develop ]
 
@@ -25,5 +25,8 @@ jobs:
     - name: Install Dependencies    # 의존 파일 설치
       run: npm install
 
+    - name: GITHUB_WORKSPACE
+      run: git config user.email "enjoymingles@gmail.com" && git config --global user.name "enjoymingles"
+      
     - name: Build                   # React Build
       run: npm run deploy
