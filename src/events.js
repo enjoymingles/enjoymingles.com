@@ -2,10 +2,10 @@ import moment from "moment";
 
 const events = [
     {
-        start: moment("20200701 22:00:00", "YYYYMMDD hh:mm:ss").toDate(),
-        end: moment("20200702 00:00:00", "YYYYMMDD hh:mm:ss").toDate(),
-        title: "하뚜 시그널 막방 빠띠",
-        description: "하뚜 시그널 막방 보쟝",
+        start: moment("20200702 12:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200702 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "김동은 공부공부",
+        description: "고대 컴퓨터 김동은 공부공부",
         color: "#ff8484"
     },
     {
