@@ -21,6 +21,20 @@ const events = [
         title: "flutter 스터디",
         description: "flutter 스터디"
     },
+    {
+        start: moment("20200707 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200707 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "탐 타미",
+        description: "탐 타미",
+        color: "#0066CC"
+    },
+    {
+        start: moment("20200709 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200709 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "탐 타미",
+        description: "탐 타미",
+        color: "#0066CC"
+    },
 ]
 
 export default events;
