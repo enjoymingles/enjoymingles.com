@@ -29,13 +29,6 @@ const events = [
         color: "#0066CC"
     },
     {
-        start: moment("20200708 19:00:00", "YYYYMMDD hh:mm:ss").toDate(),
-        end: moment("20200708 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
-        title: "수빈",
-        description: "나윤 친구 수빈이가 쓰고싶다고 함",
-        color: "#3CAEA3"
-    },
-    {
         start: moment("20200709 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         end: moment("20200709 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         title: "탐 타미",
