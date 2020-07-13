@@ -35,6 +35,13 @@ const events = [
         description: "탐 타미",
         color: "#0066CC"
     },
+    {
+        start: moment("20200731 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200731 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "효정이 대관",
+        description: "효정이 동기빠띠",
+        color: "#3CAEA3"
+    },
 ]
 
 export default events;
