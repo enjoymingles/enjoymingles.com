@@ -36,11 +36,32 @@ const events = [
         color: "#0066CC"
     },
     {
+        start: moment("20200725 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200725 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "수정이~",
+        description: "수정이가 빌린다앙",
+        color: "#AE3C47"
+    },
+    {
         start: moment("20200731 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         end: moment("20200731 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         title: "효정이 대관",
         description: "효정이 동기빠띠",
         color: "#3CAEA3"
+    },
+    {
+        start: moment("20200808 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200808 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "나윤 모임",
+        description: "나윤 충청도민 모임",
+        color: "#AE3C47"
+    },
+    {
+        start: moment("20200822 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200822 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "나윤 소믈리에 10기",
+        description: "나윤 소믈리에 10기 시음회 콘셉뜨",
+        color: "#AE3C47"
     },
 ]
 
