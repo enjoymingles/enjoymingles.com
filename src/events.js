@@ -37,7 +37,7 @@ const events = [
     },
     {
         start: moment("20200801 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
-        end: moment("202000801 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200801 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         title: "탐 타미",
         description: "탐 타미",
         color: "#0066CC"
@@ -54,6 +54,13 @@ const events = [
         end: moment("20200731 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         title: "효정이 대관",
         description: "효정이 동기빠띠",
+        color: "#3CAEA3"
+    },
+    {
+        start: moment("20200805 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200805 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "수정이 접뚜",
+        description: "",
         color: "#3CAEA3"
     },
     {
