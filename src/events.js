@@ -36,8 +36,8 @@ const events = [
         color: "#0066CC"
     },
     {
-        start: moment("20200727 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
-        end: moment("20200727 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        start: moment("20200801 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("202000801 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         title: "탐 타미",
         description: "탐 타미",
         color: "#0066CC"
