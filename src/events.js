@@ -64,6 +64,13 @@ const events = [
         color: "#3CAEA3"
     },
     {
+        start: moment("20200807 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200807 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "본격 아지트 회의",
+        description: "본격 아지트 회의",
+        color: "#AE3C47"
+    },
+    {
         start: moment("20200808 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         end: moment("20200808 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
         title: "나윤 모임",
