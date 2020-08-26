@@ -84,6 +84,13 @@ const events = [
         description: "나윤 소믈리에 10기 시음회 콘셉뜨",
         color: "#AE3C47"
     },
+    {
+        start: moment("20200827 09:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200827 24:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "재택근무 투게더",
+        description: "함께 재택근무를 합시다",
+        color: "#AE3C47"
+    },
 ]
 
 export default events;
