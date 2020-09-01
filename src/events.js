@@ -91,6 +91,13 @@ const events = [
         description: "함께 재택근무를 합시다",
         color: "#AE3C47"
     },
+    {
+        start: moment("20200903 18:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        end: moment("20200903 21:00:00", "YYYYMMDD hh:mm:ss").toDate(),
+        title: "나윤 대관",
+        description: "저 여기서 재성이랑 저녁좀 먹을게요",
+        color: "#0066CC"
+    },
 ]
 
 export default events;
